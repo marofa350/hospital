@@ -1,0 +1,200 @@
+.topbar{
+    .icons{
+        display: flex;
+    }
+    .info{
+        display:flex ;
+    }
+}
+#mycarousel{
+    a{
+        span{
+            text-decoration: none;
+            margin-right: 200px;
+        } 
+    }
+    h1{
+       font-size: 50pt;
+        margin-bottom: 50px;
+        color:#17A2B8;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    p{
+        font-size: 15pt;
+        color:yellow;
+    }
+    a{
+        font-size: 15pt;
+        border-radius: 50px;
+    }
+}
+#about{
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .row{
+        h1{
+            color: green;
+            margin-top: 15px;
+            font-size: 35pt;
+        }
+        p{
+            margin-left: 100px;
+            font-size: larger;
+        }
+    }
+}
+#Service{
+    background-color: #faf8f8;
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+    .icon{
+        i{
+            font-size: 30px;
+            color: #FE665D;
+            background-color: #fe655d23;
+            height: 50px;
+            padding: 10px;
+            border-radius: 50%;
+        }
+    }
+    .text-area{
+        h4{
+            font-size: 22px;
+        }
+    }
+    h5{
+        font-size: 15px;
+        letter-spacing: 3px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        font-weight: 650;
+    }
+    .booking-form{
+        background-color: #fff;
+        form{
+            .book-form{
+                margin-bottom: 10px;
+                border-radius: 30px;
+                padding-left: 15px;
+                padding-right: 15px;
+                height: 55px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+#Health {
+    img{
+        height: 400px;
+        width: 100%;
+    }
+    h1{
+        font-size:35pt;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    p{
+        color: white ;
+        font-size: 15pt;
+    }
+    a{
+        border-radius: 50px;
+        margin-top: 20px;
+    }
+    a:hover{
+        color:black;
+        background: white;
+    }
+    
+}
+#Doctors{
+    h1{
+        font-weight: bold;
+    }
+    .card{
+        position: relative;
+    }
+    .overlay{
+        position: absolute;
+        background: blue;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: 2s ease;
+    }
+    .text-area{
+        position: absolute;
+        opacity: 0;
+        transition: 2s ease;
+        font-size: 15pt;
+        text-decoration: none;
+        color: #fff;
+        margin:20px 20px;
+        .icons{
+            transform: translate(50px, 10px);
+            i{
+                border: 1px solid #fff;
+                padding: 3px;
+            }
+        }
+        .text{
+            transform: translate(50px, 50px);
+            h6{
+                margin: 0;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    .card:hover .overlay{
+        opacity: .5;
+    }
+    .card:hover .text-area{
+        opacity: 1;
+    }
+}
+#every{
+    .card{
+        border: none;
+        overflow: hidden;
+        .img-area{
+            overflow: hidden;
+            img{
+                transition: .5s  ease-in-out;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        p{
+            color: rgb(170, 164, 164);
+        }
+    }
+    .card:hover img{
+        transform: scale(1.4) !important;
+    }
+    
+}
+#contact{
+    background:linear-gradient(rgba(58, 84, 230, 0.7) rgba(58, 84, 230, 0.7)), url(../image/bannar/bg_3.jpg);
+}
+footer{
+    background:linear-gradient(rgba(247, 245, 245, 0.7) rgba(245, 240, 240, 0.7)), url(../image/img/img.jpg);
+    width:100%;
+    height: 30%;
+    .footer-bottom{
+        .col-md-8{
+            color: blue;
+        }
+       
+    } 
+}
